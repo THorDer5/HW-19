@@ -154,3 +154,30 @@
     top: 0;
     width: 100%;
 }
+
+.mainsection5{
+    background-image: url(mountains.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.ul_section5{
+    display: flex;
+    justify-content: center;
+}
+
+.li_section5{
+    font-family:"Headland One";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.footer{
+    background-image: url(foooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+     linear-gradient(rgba(0, 0, 0, 0.6))
+    
+}
