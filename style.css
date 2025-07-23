@@ -18,6 +18,22 @@
 }
 
 
+.list_item1:hover{
+    cursor: pointer;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.list_item2:hover{
+
+    cursor: pointer;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.list_item3:hover{
+    cursor: pointer;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 .button_signup{
      width: 141px;
@@ -64,6 +80,11 @@
     font-family:  "Headland One", serif;;
 }
         
+
+
+.button_clan:hover{
+      box-shadow: 0 0 15px 5px blue; 
+}
 
 .quote1{
     padding-top: 75px;
@@ -131,6 +152,11 @@
 
 }
 
+
+.button_section3:hover{
+      box-shadow: 0 0 15px 5px blue; 
+}
+
 .img_quote2{
     width: 350px;
     height: auto;
@@ -178,6 +204,70 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-     linear-gradient(rgba(0, 0, 0, 0.6))
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.email-container {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-item {
+    margin: 5px 0;
+}
+
+.img_footer{
+    opacity: 0.7;
+}
+
+.line_footer{
+    padding-left: 80px;
+}
+
+.email_item2{
+    font-size: 14px;
+   margin-right: 211px;
+}
+
+
+.button_signup:hover{
+      box-shadow: 0 0 15px 5px blue;
+      cursor: pointer;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    grid-template-rows: repeat(2,240px);
+    grid-auto-rows: 240px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 36px;
+    padding-top: 46px;
+    row-gap: 24px;
+     font-family:  "Headland One", serif;;
+     font-weight: 400;
+     font-size: 24px;
+}
+
+.language1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
